@@ -1,14 +1,14 @@
-# import library gui and download youtube vidios
+# import library gui and download youtube videos
 from tkinter import *
 from pytube import YouTube
 
-# create display windowv or interface
+# create display window or interface
 root = Tk()
 root.geometry('500x300')
 root.resizable(0,0)
-root.title("Easy youtube vidio downloader")
+root.title("Easy youtube video downloader")
 
-Label(root,text = 'Youtube Vidio Downloader', font = "arial 20 bold").pack()
+Label(root,text = 'Youtube Video Downloader', font = "arial 20 bold").pack()
 
 # create feild to enter the link
 link = StringVar()
